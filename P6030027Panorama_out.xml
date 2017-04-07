@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Lawn B" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Lawn A" target="174.5/0.5/65" pan="77.4995" skinid="" url="{node3}" id="Point01" tilt="-1.11265"/>
+      <hotspot title="Office" target="150/-12.5/65" pan="-12.5674" skinid="" url="{node2}" id="Point02" tilt="53.8239"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/P6030027 Panorama_o_0.jpg" tile5url="images/P6030027 Panorama_o_5.jpg" tilesize="1080" tile4url="images/P6030027 Panorama_o_4.jpg" tile3url="images/P6030027 Panorama_o_3.jpg" tilescale="1.009259259259259" tile2url="images/P6030027 Panorama_o_2.jpg" tile1url="images/P6030027 Panorama_o_1.jpg"/>
+    <altinput tile0url="images/P6030027 Panorama_o_800_0.jpg" screensize="1000" tile5url="images/P6030027 Panorama_o_800_5.jpg" tilesize="800" tile4url="images/P6030027 Panorama_o_800_4.jpg" tile3url="images/P6030027 Panorama_o_800_3.jpg" tilescale="1.009259259259259" tile2url="images/P6030027 Panorama_o_800_2.jpg" tile1url="images/P6030027 Panorama_o_800_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Office" datetime="2014:06:02 00:19:50" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Lawn B" target="352.5/35.5/65" pan="145.561" skinid="" url="{node1}" id="Point01" tilt="-13.7109"/>
+      <hotspot title="Lawn A" target="211/20/65" pan="91.4259" skinid="" url="{node3}" id="Point02" tilt="-9.26196"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/P6020018 Panorama_o_0.jpg" tile5url="images/P6020018 Panorama_o_5.jpg" tilesize="1080" tile4url="images/P6020018 Panorama_o_4.jpg" tile3url="images/P6020018 Panorama_o_3.jpg" tilescale="1.009259259259259" tile2url="images/P6020018 Panorama_o_2.jpg" tile1url="images/P6020018 Panorama_o_1.jpg"/>
+    <altinput tile0url="images/P6020018 Panorama_o_800_0.jpg" screensize="1000" tile5url="images/P6020018 Panorama_o_800_5.jpg" tilesize="800" tile4url="images/P6020018 Panorama_o_800_4.jpg" tile3url="images/P6020018 Panorama_o_800_3.jpg" tilescale="1.009259259259259" tile2url="images/P6020018 Panorama_o_800_2.jpg" tile1url="images/P6020018 Panorama_o_800_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node3">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Lawn A" datetime="2014:06:03 15:47:48" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Lawn B" target="80/-1/65" pan="178.998" skinid="" url="{node1}" id="Point01" tilt="-2.20197"/>
+      <hotspot title="Office" target="109/-11/65" pan="-141.685" skinid="" url="{node2}" id="Point02" tilt="37.9791"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/P6030054 Panorama_o_0.jpg" tile5url="images/P6030054 Panorama_o_5.jpg" tilesize="1080" tile4url="images/P6030054 Panorama_o_4.jpg" tile3url="images/P6030054 Panorama_o_3.jpg" tilescale="1.009259259259259" tile2url="images/P6030054 Panorama_o_2.jpg" tile1url="images/P6030054 Panorama_o_1.jpg"/>
+    <altinput tile0url="images/P6030054 Panorama_o_800_0.jpg" screensize="1000" tile5url="images/P6030054 Panorama_o_800_5.jpg" tilesize="800" tile4url="images/P6030054 Panorama_o_800_4.jpg" tile3url="images/P6030054 Panorama_o_800_3.jpg" tilescale="1.009259259259259" tile2url="images/P6030054 Panorama_o_800_2.jpg" tile1url="images/P6030054 Panorama_o_800_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>
