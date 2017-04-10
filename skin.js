@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.0/3102S
 // Filename: simplex_no_rotate.ggsk
-// Generated Mon 10. Apr 19:25:31 2017
+// Generated Mon 10. Apr 20:31:49 2017
 
 function pano2vrSkin(player,base) {
 	var me=this;
