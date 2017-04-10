@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.0/3102S
-// Filename: simplex.ggsk
-// Generated Tue 3. Jun 18:07:31 2014
+// Filename: simplex_no_rotate.ggsk
+// Generated Mon 10. Apr 19:25:31 2017
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -408,81 +408,6 @@ function pano2vrSkin(player,base) {
 		this._tt_zoomout.appendChild(this._tt_zoomout_white);
 		this._zoomout.appendChild(this._tt_zoomout);
 		this._controller.appendChild(this._zoomout);
-		this._autorotate=document.createElement('div');
-		this._autorotate.ggId='autorotate';
-		this._autorotate.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._autorotate.ggVisible=true;
-		hs ='position:absolute;';
-		hs+='left: 160px;';
-		hs+='top:  10px;';
-		hs+='width: 32px;';
-		hs+='height: 32px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		hs+='cursor: pointer;';
-		this._autorotate.setAttribute('style',hs);
-		this._autorotate__img=document.createElement('img');
-		this._autorotate__img.setAttribute('src',basePath + 'images/autorotate.svg');
-		this._autorotate__img.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 32px;height: 32px;');
-		this._autorotate.appendChild(this._autorotate__img);
-		this._autorotate.onclick=function () {
-			me.player.toggleAutorotate();
-		}
-		this._autorotate.onmouseover=function () {
-			me._tt_autorotate.style[domTransition]='none';
-			me._tt_autorotate.style.visibility='inherit';
-			me._tt_autorotate.ggVisible=true;
-			me._autorotate__img.src=basePath + 'images/autorotate__o.svg';
-		}
-		this._autorotate.onmouseout=function () {
-			me._tt_autorotate.style[domTransition]='none';
-			me._tt_autorotate.style.visibility='hidden';
-			me._tt_autorotate.ggVisible=false;
-			me._autorotate__img.src=basePath + 'images/autorotate.svg';
-		}
-		this._tt_autorotate=document.createElement('div');
-		this._tt_autorotate.ggId='tt_autorotate';
-		this._tt_autorotate.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._tt_autorotate.ggVisible=false;
-		hs ='position:absolute;';
-		hs+='left: -65px;';
-		hs+='top:  36px;';
-		hs+='width: 170px;';
-		hs+='height: 18px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		hs+='border: 0px solid #000000;';
-		hs+='color: #000000;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
-		this._tt_autorotate.setAttribute('style',hs);
-		this._tt_autorotate.innerHTML="Start\/Stop Autorotation";
-		this._tt_autorotate_white=document.createElement('div');
-		this._tt_autorotate_white.ggId='tt_autorotate_white';
-		this._tt_autorotate_white.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._tt_autorotate_white.ggVisible=true;
-		hs ='position:absolute;';
-		hs+='left: -1px;';
-		hs+='top:  -1px;';
-		hs+='width: 170px;';
-		hs+='height: 18px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		hs+='border: 0px solid #000000;';
-		hs+='color: #ffffff;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
-		this._tt_autorotate_white.setAttribute('style',hs);
-		this._tt_autorotate_white.innerHTML="Start\/Stop Autorotation";
-		this._tt_autorotate.appendChild(this._tt_autorotate_white);
-		this._autorotate.appendChild(this._tt_autorotate);
-		this._controller.appendChild(this._autorotate);
 		this._info=document.createElement('div');
 		this._info.ggId='info';
 		this._info.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="0" pannorth="0">
+    <start pan="2.4" fov="65.72" tilt="0"/>
+    <min pan="-100" fov="5" tilt="-32.86467830960511"/>
+    <max pan="100" fov="120" tilt="32.86467830960511"/>
+  </view>
+  <userdata title="Mt Maroon" datetime="2015:03:01 18:29:31" description="Mount Maroon is part of the McPherson Range in South East Queensland that is. The mountain rises to 966 m above sea level about 12 km west of Rathdowney." copyright="Callum MacBeth" tags="" author="Callum MacBeth" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="Mt Maroon (A)" target="" pan="-12.8151" skinid="" url="MtMaroonA_out.xml" id="Point1" tilt="-8.599349999999999"/>
+  </hotspots>
+  <media/>
+  <input tile0url="images/MtMaroonB_o_0.jpg" tile5url="images/MtMaroonB_o_5.jpg" tilesize="5729" tile4url="images/MtMaroonB_o_4.jpg" tile3url="images/MtMaroonB_o_3.jpg" tilescale="1.001745505323791" tile2url="images/MtMaroonB_o_2.jpg" tile1url="images/MtMaroonB_o_1.jpg"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="3" sensitivity="8"/>
+</panorama>
